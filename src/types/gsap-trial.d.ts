@@ -1,5 +1,4 @@
-declare module "gsap-trial/SplitText" {
-  const SplitText: any;
-  export default SplitText;
-  export { SplitText };
-}
+import gsap from "gsap";
+import { SplitText } from "gsap/SplitText";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
